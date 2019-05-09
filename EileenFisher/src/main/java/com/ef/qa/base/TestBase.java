@@ -51,7 +51,7 @@ public class TestBase {
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().pageLoadTimeout(TestUtil.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT, TimeUnit.SECONDS);
-		driver.get("https://www.eftest.eileenfisher.com");
+		driver.get(prop.getProperty("url"));
 	}
 	
 	
