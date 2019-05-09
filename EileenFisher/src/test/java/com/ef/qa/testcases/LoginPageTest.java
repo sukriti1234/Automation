@@ -25,7 +25,7 @@ public class LoginPageTest extends TestBase{
 	public void loginPageTitleTest() {
     String title=loginPage.validateLoginPageTitle();
     System.out.println(title);
-    
+    //pulling this request
 	}
 	
 	
